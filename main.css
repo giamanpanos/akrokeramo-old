@@ -1,0 +1,370 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	
+}
+
+body {
+	/*width: 500px;
+	margin: 0 auto;*/
+	text-align:center;
+	background-image: url(img/back.jpg);
+	background-repeat:repeat-x;
+}
+
+/*-----------------BRANDING-----------------*/
+
+#branding {
+	position:relative;
+	height: 145px;
+	background-image: url(img/bg_top.jpg);	
+}
+
+#branding h1 {
+	position:relative;
+	left: 23px;
+	display:inline;
+	z-index:10;
+	background-image:url(img/logo.jpg);
+}
+
+#branding ul {
+	position: absolute;
+	top: 0;
+	left : 637px;
+}
+
+#branding #lang {
+	position: absolute;
+	top: 108px;
+	left : 851px;
+}
+
+#branding #lang a {
+	display: inline;
+	color: #9ea3a9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+#branding #lang a:hover {
+	color: #9ea3a9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+/*-----------------CONTAINER-----------------*/
+
+#container {
+	width: 940px;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+}
+
+#content {
+
+}
+
+/*---------CONTENT MAIN---------*/
+
+#content_main {
+	float: right;
+	width: 590px;
+	margin: 0;
+	padding: 0;
+}
+
+#content_main h2 {
+	font-family:"Times New Roman", Georgia, Times, serif;
+	font-size: 29px;
+	color: #222222;
+	font-weight: bold;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+#content_main p {
+	font-family:"Times New Roman", Georgia, Times, serif;
+	color: #222222;
+	font-size: 13px;
+	/*display:inline;*/
+	margin: 0;
+	padding-top: 0;
+	padding-right: 62px;
+	padding-bottom: 21px;
+	padding-left: 0;
+}
+
+#content_main .text p {
+	font-family:"Times New Roman", Georgia, Times, serif;
+	color: #d2dbe2;
+	font-size: 14px;
+	/*display:inline;*/
+	margin: 0;
+	padding-top: 0;
+	padding-right: 62px;
+	padding-bottom: 21px;
+	padding-left: 0;
+}
+
+/*---------List---------*/
+
+#content_main #list {
+	position: relative;
+	display: block;
+	
+}
+
+#content_main #list .center-content {
+	position:relative;
+	padding:1px 20px 1px 0px;
+	margin:-1px 0 -50px 0;
+	display: block;
+	height: 670px;
+}
+
+#content_main #list .center-content img {
+	text-align: left;
+	float: left;
+	padding-right: 10px;
+}
+
+#content_main #list .center-content h3 {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #d2dbe2;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#content_main #list .center-content li {
+	display: block;
+	padding-top: 0px;
+	padding-bottom: 7px;
+	height: 60px;
+	font-family:Verdana, Geneva, sans-serif;
+	color: #d2dbe2;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+#content_main #list .center-content li a {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #d2dbe2;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: none;
+	display: inline;
+}
+
+#content_main #list .center-content li a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #d2dbe2;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: underline;
+	display:inline;
+}
+
+/*---Clients sub---*/
+
+#content_main #client_sub h4 {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #222222;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#content_main #client_sub {
+	width: 100%;
+	padding-bottom: 20px;
+	background-image: url(img/bg.gif);
+	background-repeat: no-repeat;
+}
+
+#content_main #client_sub img {
+	/*float: left;*/
+}
+
+#content_main #client_sub li {
+	float: left;
+	width: 180px;
+	font-family:Verdana, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 19px;
+	padding-top: 20px;
+}
+
+#content_main #client_sub  li a {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #222222;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: none;
+	display: block;	
+}
+
+#content_main #client_sub  li a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #222222;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: underline;
+	display:block;
+}
+
+
+p {margin:0 0 1em 0}
+
+/*---------CONTENT SUB---------*/
+
+#content_sub {
+	position: relative;
+	float: left;
+	width: 310px;
+	margin: 0;
+	padding-left: 10px;
+	word-wrap: break-word;
+}
+
+/*--MENU--*/
+
+#navlist {
+	list-style-image:url(img/bul_nav.png);
+	list-style-type: none;
+	padding-top: 25px;
+	padding-left: 21px;
+	padding-bottom: 25px;
+}
+
+#navlist li {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 3px;
+	padding-bottom: .2em;
+	text-decoration: none;
+}
+
+#navlist li a {	
+	font-family:Verdana, Geneva, sans-serif;
+	color: #a06431;
+	font-weight: bold;
+	font-size: 17px;
+	padding-left: 3px;
+	text-decoration: none;
+}
+
+#navlist li a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #ef9c54;
+	font-weight: bold;
+	font-size: 17px;
+	padding-left: 3px;
+	text-decoration: none;
+}
+
+
+/*p { margin: 0 1em; padding: .5em 0; }*/
+
+.clear { 
+	clear:both;
+}
+
+/*---------Clients---------*/
+
+#content_sub #clients {
+	position: relative;
+	width: 300px;
+	background-color: #e0e5e9;
+}
+
+#content_sub #clients .top {
+	width:100%;
+	height:20px;
+	display:block;
+	font-family:"Times New Roman", Times, serif;
+	font-size:15px;
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+	padding-top: 15px;
+	position:relative;
+	height:35px;
+	background-color:#dd873f;
+}
+
+#content_sub #clients .center-content {
+	position:relative;
+	padding:1px 20px 1px 18px;
+}
+
+#content_sub #clients .center-content li {
+	padding-top: 0px;
+	padding-bottom: 7px;
+}
+
+#content_sub #clients .center-content li a {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #944f14;
+	font-weight: normal;
+	font-size: 13px;
+	text-decoration: none;
+	/*display: block;*/
+}
+
+#content_sub #clients .center-content li a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	color: #944f14;
+	font-weight: normal;
+	font-size: 13px;
+	text-decoration: underline;
+/*	display:block;*/
+}
+
+#ban {
+	padding-top: 20px;
+}
+
+/*-----------------SITE INFO-----------------*/
+
+
+#site_info {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #7f8081;
+	height: 74px;
+	text-align: center;
+	padding-top: 25px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d6d6d6;
+}
+
+#site_info p {
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+#site_info a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #7f8081;
+	text-decoration: none;
+}
+
+#site_info a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #7f8081;
+	text-decoration: underline;
+}

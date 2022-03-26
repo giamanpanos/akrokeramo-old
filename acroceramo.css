@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #000;
+}
+
+#container {
+	width: 650px;
+	position: relative;
+	margin: 0px auto;
+}
+
+#container #content_main {
+	margin-top: 40px;
+	width: 350px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 12px;
+	z-index: 2;
+}
+
+#container #content_main H1 {
+	display:inline;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 30px;
+	color: #d07a37;
+	font-weight: normal;
+}
+
+#container #content_main H2 {
+	display:inline;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	color: #d07a37;
+	font-weight: normal;
+}
+
+#container #content_main H3 {
+	display:inline;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	font-weight: normal;
+}
+
+
+/*#container #content_main #image {
+	width: 400px;
+	margin-top: 0px;
+	margin-left: 300px;
+	position: absolute;
+	z-index: 0;
+}*/
+
+#container #image IMG {
+	margin-left: 150px;
+}
+
+#container #content_main a:link, a:visited {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #ccc;
+	font-weight: normal;
+	text-decoration:underline;
+}
+
+#container #content_main a:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #ccc;
+	font-weight: normal;
+	text-decoration:none;
+}
+
+#container #content_main a:active {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #ccc;
+	font-weight: normal;
+	text-decoration:underline;
+}
+
+#container #content_main H4 {
+	display:inline;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	color: #fff;
+	font-weight: normal;
+}
